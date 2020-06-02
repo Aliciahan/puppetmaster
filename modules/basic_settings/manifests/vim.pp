@@ -10,7 +10,7 @@ class basic_settings::vim
   remote_file {'download pre-configured ultisnips':
     path    =>  '/tmp/UltiSnips.tar.gz',
     ensure  =>  present,
-    source  =>  ${ultisnips_url},
+    source  =>  $ultisnips_url,
   }
 
   case $facts['os']['name'] {
