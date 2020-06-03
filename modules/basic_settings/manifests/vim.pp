@@ -108,11 +108,11 @@ class basic_settings::vim
     require   =>  File['prepare_common_vimrc_repo'],
   }
 
-  exec {'manuall-install-vundle':
-    cwd     => ${common_vim_repo},
+  exec { 'manuall-install-vundle':
+    cwd     => $common_vim_repo,
     command => "git clone ${vundle_git_url} ${common_vim_repo}/bundle/Vundle.vim && touch /etc/vundle_installed",
     path    => '/bin/:/sbin/:/usr/bin/:/usr/sbin/',
-    onlyif => "test ! -e /etc/vundle_installed",
+    onlyif  => "test ! -e /etc/vundle_installed",
   }
 
   file {'colorls setting up':
