@@ -101,17 +101,24 @@ class basic_settings::vim
     provider  => 'wget',
     require   =>  File['prepare_common_vimrc_repo'],
   }->
-  exec { 'manuall-install-vundle':
-    cwd     => $common_vim_repo,
-    command => "git clone ${vundle_git_url} ${common_vim_repo}/bundle/Vundle.vim && touch /etc/vundle_installed",
-    path    => '/bin/:/sbin/:/usr/bin/:/usr/sbin/',
-    onlyif  => "test ! -e /etc/vundle_installed",
-  }->
-  exec { 'manuall-install-plugins':
-    cwd     => $common_vim_repo,
-    command => "vim +PluginInstall +qall && touch /etc/vim_plugin_installed",
-    path    => '/bin/:/sbin/:/usr/bin/:/usr/sbin/',
-    onlyif  => "test ! -e /etc/vim_plugin_installed",
+  #exec { 'manuall-install-vundle':
+  #  cwd     => $common_vim_repo,
+  #  command => "git clone ${vundle_git_url} ${common_vim_repo}/bundle/Vundle.vim && touch /etc/vundle_installed",
+  #  path    => '/bin/:/sbin/:/usr/bin/:/usr/sbin/',
+  #  onlyif  => "test ! -e /etc/vundle_installed",
+  #}->
+  #exec { 'manuall-install-plugins':
+  #  cwd     => $common_vim_repo,
+  #  command => "vim +PluginInstall +qall && touch /etc/vim_plugin_installed",
+  #  path    => '/bin/:/sbin/:/usr/bin/:/usr/sbin/',
+  #  onlyif  => "test ! -e /etc/vim_plugin_installed",
+  #}
+  git { 'the-nerd-tree':
+    path   => "$common_vim_repo/the-nerd-tree",
+    ensure => present,
+    branch => 'master',
+    latest => true,
+    origin => 'https://github.com/vim-scripts/The-NERD-tree.git',
   }
 
 
