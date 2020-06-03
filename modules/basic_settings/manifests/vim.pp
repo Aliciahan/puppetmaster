@@ -18,12 +18,6 @@ class basic_settings::vim
         mode   => '755',
       }
 
-      file {'prepare_common_vim_repo':
-        path   => "${common_vim_repo}/UltiSnips",
-        ensure => directory,
-        mode   => '755',
-      }
-
     }
     /^(Debian|Ubuntu)$/: {
       $common_vim_repo ='/usr/share/vim/addons/plugin' 
