@@ -19,6 +19,39 @@ class basic_settings::vim
     ensure => $vim_version,
   }
 
+  package {'git':
+    ensure => "installed",
+  }
+
+  #automake gcc gcc-c++ make kernel-devel cmake python-devel python3-devel ncurses-devel ncurses-libs
+
+  package {'automake':
+    ensure => "installed",
+  }
+  package {'gcc':
+    ensure => "installed",
+  }
+  package {'gcc-c++':
+    ensure => "installed",
+  }
+  package {'make':
+    ensure => "installed",
+  }
+  package {'cmake':
+    ensure => "installed",
+  }
+  package {'kernel-devel':
+    ensure => "installed",
+  }
+  package {'python3-devel':
+    ensure => "installed",
+  }
+  package {'ncurses-devel':
+    ensure => "installed",
+  }
+  package {'ncurses-libs':
+    ensure => "installed",
+  }
 
   file {'prepare_common_vim_repo':
     path   => "${common_vim_repo}/UltiSnips",
@@ -31,30 +64,30 @@ class basic_settings::vim
     mode   => '755',
   }
   archive { '/opt/UltiSnips.tgz': 
-    ensure 	=> present,
-    extract	=> true,
-    extract_path => "${common_vim_repo}/UltiSnips",
-    source       => $ultisnips_url,
-    provider     => 'wget',
-    download_options =>  '--continue',
-    require          =>  File['prepare_common_vim_repo'],
+    ensure            => present,
+    extract           => true,
+    extract_path      => "${common_vim_repo}/UltiSnips",
+    source            => $ultisnips_url,
+    provider          => 'wget',
+    download_options  => '--continue',
+    require           => File['prepare_common_vim_repo'],
   }
 
-  archive { '/opt/bundle.tgz': 
-    ensure 	=> present,
-    extract	=> true,
-    extract_path => "${common_vim_repo}",
-    source       => $bundle_file_centos,
-    provider     => 'wget',
-    download_options =>  '--continue',
-    require          =>  File['prepare_common_vim_repo'],
-  }
+  #archive { '/opt/bundle.tgz': 
+  #  ensure 	=> present,
+  #  extract	=> true,
+  #  extract_path => "${common_vim_repo}",
+  #  source       => $bundle_file_centos,
+  #  provider     => 'wget',
+  #  download_options =>  '--continue',
+  #  require          =>  File['prepare_common_vim_repo'],
+  #}
 
   archive { '/etc/vimrc': 
-    ensure 	=> present,
-    source       => $vimrc_url,
-    provider     => 'wget',
-    require          =>  File['prepare_common_vimrc_repo'],
+    ensure    => present,
+    source    => $vimrc_url,
+    provider  => 'wget',
+    require   =>  File['prepare_common_vimrc_repo'],
   }
 
   file {'colorls setting up':
