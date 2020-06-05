@@ -17,7 +17,10 @@ class basic_settings
       }
     }
     /^(Debian|Ubuntu)$/: {
-      $common_vim_repo ='/usr/share/vim/addons/plugin' 
+      # Setting up NTP
+      class { 'ntp':
+        servers => [ '0.fr.pool.ntp.org', '1.fr.pool.ntp.org' , '2.fr.pool.ntp.org' , '3.fr.pool.ntp.org' ],
+      }
     }
   }
 

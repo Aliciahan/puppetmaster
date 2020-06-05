@@ -1,0 +1,344 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AlsoString	modules/stdlib/spec/spec_helper_local.rb	/^class AlsoString < String$/;"	c
+Archive	modules/archive/lib/puppet_x/bodeco/archive.rb	/^    class Archive$/;"	c	class:PuppetX.Bodeco
+Bodeco	modules/archive/lib/puppet_x/bodeco/archive.rb	/^  module Bodeco$/;"	m	class:PuppetX
+Bodeco	modules/archive/lib/puppet_x/bodeco/util.rb	/^  module Bodeco$/;"	m	class:PuppetX
+Class	modules/stdlib/spec/monkey_patches/publicize_methods.rb	/^class Class$/;"	c
+FILE	modules/archive/lib/puppet_x/bodeco/util.rb	/^    class FILE$/;"	c	class:PuppetX
+FTP	modules/archive/lib/puppet_x/bodeco/util.rb	/^    class FTP$/;"	c	class:PuppetX
+Facter	modules/stdlib/lib/facter/facter_dot_d.rb	/^class Facter::Util::DotD$/;"	c
+Facter	modules/stdlib/lib/facter/root_home.rb	/^module Facter::Util::RootHome$/;"	m
+Facter	modules/stdlib/lib/facter/util/puppet_settings.rb	/^module Facter::Util::PuppetSettings$/;"	m
+HTTP	modules/archive/lib/puppet_x/bodeco/util.rb	/^    class HTTP$/;"	c	class:PuppetX.Bodeco
+HTTPS	modules/archive/lib/puppet_x/bodeco/util.rb	/^    class HTTPS < HTTP$/;"	c	class:PuppetX
+Object	modules/remote_file/spec/spec_helper.rb	/^class Object$/;"	c
+Object	modules/stdlib/spec/monkey_patches/alias_should_to_must.rb	/^class Object$/;"	c
+Puppet	modules/remote_file/lib/puppet/provider/remote_file.rb	/^class Puppet::Provider::Remote_file < Puppet::Provider$/;"	c
+Puppet	modules/stdlib/lib/puppet/parser/functions/abs.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/alternative_source.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/alternative_template.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/any2array.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/any2bool.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/assert_private.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/base64.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/basename.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/bool2num.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/bool2str.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/camelcase.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/capitalize.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/ceiling.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/chomp.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/chop.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/clamp.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/concat.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/convert_base.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/count.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/deep_merge.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/delete.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/delete_at.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/delete_regex.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/delete_undef_values.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/delete_values.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/deprecation.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/difference.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/dig.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/dig44.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/dirname.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/dos2unix.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/downcase.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/empty.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/enclose_ipv6.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/ensure_packages.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/flatten.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/floor.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/fqdn_uuid.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/get_module_path.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/getvar.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/glob.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/grep.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/has_interface_with.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/has_ip_address.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/has_ip_network.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/has_key.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/hash.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/intersection.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_absolute_path.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_array.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_bool.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_domain_name.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_email_address.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_float.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_function_available.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_hash.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_integer.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_ip_address.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_ipv4_address.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_ipv6_address.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_mac_address.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_numeric.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/is_string.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/join.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/join_keys_to_values.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/keys.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/load_module_metadata.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/loadjson.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/loadyaml.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/lstrip.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/max.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/member.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/merge.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/min.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/num2bool.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/parsejson.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/parseyaml.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/pick.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/pick_default.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/prefix.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/private.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/pry.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/range.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/regexpescape.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/reject.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/reverse.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/round.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/rstrip.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/shell_escape.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/shell_join.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/shell_split.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/shuffle.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/size.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/sort.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/squeeze.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/str2bool.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/str2saltedpbkdf2.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/str2saltedsha512.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/strip.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/suffix.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/swapcase.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/time.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/to_bytes.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/try_get_value.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/type.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/type3x.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/union.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/unique.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/unix2dos.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/upcase.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/uriescape.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_absolute_path.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_array.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_augeas.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_bool.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_cmd.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_domain_name.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_email_address.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_hash.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_integer.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_ip_address.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_ipv4_address.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_ipv6_address.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_numeric.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_re.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_slength.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_string.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/validate_x509_rsa_key_pair.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/values.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/values_at.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/lib/puppet/parser/functions/zip.rb	/^module Puppet::Parser::Functions$/;"	m
+Puppet	modules/stdlib/spec/unit/facter/util/puppet_settings_spec.rb	/^      module Puppet; end$/;"	m
+PuppetX	modules/archive/lib/puppet_x/bodeco/archive.rb	/^module PuppetX$/;"	m
+PuppetX	modules/archive/lib/puppet_x/bodeco/util.rb	/^module PuppetX$/;"	m
+SharedData	modules/stdlib/spec/support/shared_data.rb	/^module SharedData$/;"	m
+StubModule	modules/stdlib/spec/functions/get_module_path_spec.rb	/^  class StubModule$/;"	c
+Util	modules/archive/lib/puppet_x/bodeco/util.rb	/^    module Util$/;"	m	class:PuppetX.Bodeco
+anchored	modules/stdlib/spec/acceptance/anchor_spec.rb	/^      class anchored {$/;"	c
+anchorrefresh	modules/stdlib/spec/acceptance/anchor_spec.rb	/^      class anchorrefresh {$/;"	c	class:anchored
+archive_filepath	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def archive_filepath$/;"	f
+artifactory_checksum	modules/archive/lib/puppet/functions/archive/artifactory_checksum.rb	/^  def artifactory_checksum(url, checksum_type = 'sha1')$/;"	f
+artifactory_latest_url	modules/archive/lib/puppet/functions/archive/artifactory_latest_url.rb	/^  def artifactory_latest_url(url, maven_data)$/;"	f
+assert_type	modules/stdlib/lib/puppet/functions/validate_legacy.rb	/^  def assert_type(type, value)$/;"	f
+cache_lookup	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def cache_lookup(file)$/;"	f
+cache_save!	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def cache_save!$/;"	f
+cache_store	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def cache_store(file, data)$/;"	f
+cache_time	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def cache_time(file)$/;"	f
+calculated_checksum	modules/remote_file/lib/puppet/provider/remote_file.rb	/^  def calculated_checksum$/;"	f	class:Puppet
+call	modules/stdlib/lib/puppet/functions/is_absolute_path.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/is_array.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/is_bool.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/is_float.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/is_ip_address.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/is_ipv4_address.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/is_ipv6_address.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/is_numeric.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/is_string.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_absolute_path.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_array.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_bool.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_hash.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_integer.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_ip_address.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_ipv4_address.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_ipv6_address.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_legacy.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_numeric.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_re.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_slength.rb	/^  def call(scope, *args)$/;"	f
+call	modules/stdlib/lib/puppet/functions/validate_string.rb	/^  def call(scope, *args)$/;"	f
+change_to_s	modules/archive/lib/puppet/type/archive.rb	/^    def change_to_s(currentvalue, newvalue)$/;"	f
+change_to_s	modules/remote_file/lib/puppet/type/remote_file.rb	/^    def change_to_s(current_value, new_value)$/;"	f
+checksum	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def checksum$/;"	f
+checksum	modules/archive/lib/puppet_x/bodeco/archive.rb	/^      def checksum(type)$/;"	f	class:PuppetX.Bodeco
+checksum?	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def checksum?(store_checksum = true)$/;"	f
+checksum_specified?	modules/remote_file/lib/puppet/provider/remote_file.rb	/^  def checksum_specified?$/;"	f	class:Puppet
+cleanup	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def cleanup$/;"	f
+command	modules/archive/lib/puppet_x/bodeco/archive.rb	/^      def command(options)$/;"	f	class:PuppetX.win_7zip
+content	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def content(uri, option = { limit: FOLLOW_LIMIT })$/;"	f	class:PuppetX.Bodeco
+content	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def self.content(url, options = {})$/;"	F	class:PuppetX.Bodeco.Util
+count_matches	modules/stdlib/lib/puppet/provider/file_line/ruby.rb	/^  def count_matches(regex)$/;"	f
+create	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def create$/;"	f
+create	modules/remote_file/lib/puppet/provider/remote_file/ruby.rb	/^  def create$/;"	f
+create	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def create$/;"	f
+create	modules/stdlib/lib/puppet/provider/file_line/ruby.rb	/^  def create$/;"	f
+creates	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def creates$/;"	f
+creates=	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def creates=(_value)$/;"	f
+curl_params	modules/archive/lib/puppet/provider/archive/curl.rb	/^  def curl_params(params)$/;"	f
+default_impl	modules/archive/lib/puppet/functions/archive/assemble_nexus_url.rb	/^  def default_impl(nexus_url, params)$/;"	f
+default_impl	modules/archive/lib/puppet/functions/archive/go_md5.rb	/^  def default_impl(username, password, file, url)$/;"	f
+deprecation	modules/stdlib/lib/puppet/functions/deprecation.rb	/^  def deprecation(key, message)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/is_absolute_path.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/is_array.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/is_bool.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/is_float.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/is_ip_address.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/is_ipv4_address.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/is_ipv6_address.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/is_numeric.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/is_string.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/validate_absolute_path.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/validate_array.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/validate_bool.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/validate_hash.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/validate_integer.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/validate_ip_address.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/validate_ipv4_address.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/validate_ipv6_address.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/validate_numeric.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/validate_re.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/validate_slength.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+deprecation_gen	modules/stdlib/lib/puppet/functions/validate_string.rb	/^  def deprecation_gen(scope, *args)$/;"	f
+destroy	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def destroy$/;"	f
+destroy	modules/remote_file/lib/puppet/provider/remote_file.rb	/^  def destroy$/;"	f	class:Puppet
+destroy	modules/stdlib/lib/puppet/provider/file_line/ruby.rb	/^  def destroy$/;"	f
+download	modules/archive/lib/puppet/provider/archive/curl.rb	/^  def download(filepath)$/;"	f
+download	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def download(filepath)$/;"	f
+download	modules/archive/lib/puppet/provider/archive/wget.rb	/^  def download(filepath)$/;"	f
+download	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def download(uri, file_path)$/;"	f	class:PuppetX.FILE
+download	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def download(uri, file_path)$/;"	f	class:PuppetX.FTP
+download	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def download(uri, file_path, option = { limit: FOLLOW_LIMIT })$/;"	f	class:PuppetX.Bodeco
+download	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def self.download(url, filepath, options = {})$/;"	F	class:PuppetX.Bodeco.Util
+end_with	modules/stdlib/lib/puppet/functions/stdlib/end_with.rb	/^  def end_with(test_string, suffixes)$/;"	f
+ensure_module_defined	modules/ntp/spec/spec_helper.rb	/^def ensure_module_defined(module_name)$/;"	f
+ensure_module_defined	modules/stdlib/spec/spec_helper.rb	/^def ensure_module_defined(module_name)$/;"	f
+entries	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def entries$/;"	f	class:Facter
+eval_generate	modules/remote_file/lib/puppet/type/remote_file.rb	/^  def eval_generate$/;"	f
+exists?	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def exists?$/;"	f
+exists?	modules/remote_file/lib/puppet/provider/remote_file.rb	/^  def exists?$/;"	f	class:Puppet
+exists?	modules/stdlib/lib/puppet/provider/file_line/ruby.rb	/^  def exists?$/;"	f
+extname	modules/stdlib/lib/puppet/functions/stdlib/extname.rb	/^  def extname(filename)$/;"	f
+extract	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def extract$/;"	f
+extract	modules/archive/lib/puppet_x/bodeco/archive.rb	/^      def extract(path = root_dir, opts = {})$/;"	f	class:PuppetX.Bodeco
+extracted?	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def extracted?$/;"	f
+fact	modules/stdlib/lib/puppet/functions/fact.rb	/^  def fact(fact_name)$/;"	f
+fact_type	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def fact_type(file)$/;"	f	class:Facter
+follow_redirect	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def follow_redirect(uri, option = { limit: FOLLOW_LIMIT }, &block)$/;"	f	class:PuppetX.Bodeco.HTTP
+fqdn_rand_string	modules/stdlib/spec/functions/fqdn_rand_string_spec.rb	/^  def fqdn_rand_string(max, args = {})$/;"	f
+fqdn_rotate	modules/stdlib/spec/functions/fqdn_rotate_spec.rb	/^  def fqdn_rotate(value, args = {})$/;"	f
+generate	modules/remote_file/lib/puppet/type/remote_file.rb	/^  def generate$/;"	f
+generate_request	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def generate_request(uri)$/;"	f	class:PuppetX.Bodeco.HTTP
+get	modules/remote_file/lib/puppet/provider/remote_file/ruby.rb	/^  def get(url)$/;"	f
+handle_append_line	modules/stdlib/lib/puppet/provider/file_line/ruby.rb	/^  def handle_append_line$/;"	f
+handle_create_with_after	modules/stdlib/lib/puppet/provider/file_line/ruby.rb	/^  def handle_create_with_after$/;"	f
+handle_create_with_match	modules/stdlib/lib/puppet/provider/file_line/ruby.rb	/^  def handle_create_with_match$/;"	f
+handle_destroy_line	modules/stdlib/lib/puppet/provider/file_line/ruby.rb	/^  def handle_destroy_line$/;"	f
+handle_destroy_with_match	modules/stdlib/lib/puppet/provider/file_line/ruby.rb	/^  def handle_destroy_with_match$/;"	f
+http	modules/remote_file/lib/puppet/provider/remote_file/ruby.rb	/^  def http(uri, options = {}, &blk)$/;"	f
+http_get	modules/remote_file/lib/puppet/provider/remote_file/ruby.rb	/^  def http_get(uri, download_path)$/;"	f
+http_head	modules/remote_file/lib/puppet/provider/remote_file/ruby.rb	/^  def http_head(uri)$/;"	f
+initialize	modules/archive/lib/puppet_x/bodeco/archive.rb	/^      def initialize(file)$/;"	f	class:PuppetX.Bodeco.Archive
+initialize	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def initialize(_url, _options) end$/;"	f	class:PuppetX.FILE
+initialize	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def initialize(_url, options)$/;"	f	class:PuppetX.Bodeco.HTTP
+initialize	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def initialize(url, options)$/;"	f	class:PuppetX.FTP
+initialize	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def initialize(dir = '\/etc\/facts.d', cache_file = File.join(Puppet[:libdir], 'facts_dot_d.cache'))$/;"	f	class:Facter
+initialize	modules/stdlib/spec/functions/get_module_path_spec.rb	/^    def initialize(path)$/;"	f	class:StubModule
+insync?	modules/remote_file/lib/puppet/type/remote_file.rb	/^    def insync?(is)$/;"	f
+ip_in_range	modules/stdlib/lib/puppet/functions/stdlib/ip_in_range.rb	/^  def ip_in_range(ipaddress, range)$/;"	f
+is_a	modules/stdlib/lib/puppet/functions/is_a.rb	/^  def is_a(value, type) # rubocop:disable Style\/PredicateName : Used in to many other places to rename at this time, attempting to refactor caused Rubocop to crash.$/;"	f
+is_to_s	modules/archive/lib/puppet/type/archive.rb	/^    def is_to_s(value) # rubocop:disable Style\/PredicateName$/;"	f
+json_parser	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def json_parser(file)$/;"	f	class:Facter
+length	modules/stdlib/lib/puppet/functions/length.rb	/^  def length(value)$/;"	f
+lines	modules/stdlib/lib/puppet/provider/file_line/ruby.rb	/^  def lines$/;"	f
+load_cache	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def load_cache$/;"	f
+load_file_with_any_terminus	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def self.load_file_with_any_terminus(url)$/;"	F	class:PuppetX.Bodeco.Util
+local_mtime	modules/remote_file/lib/puppet/provider/remote_file/ruby.rb	/^  def local_mtime$/;"	f
+mapped_value	modules/stdlib/spec/functions/pick_default_spec.rb	/^    def mapped_value(v)$/;"	f
+merge2hashes	modules/stdlib/lib/puppet/functions/merge.rb	/^  def merge2hashes(*hashes)$/;"	f
+merge_iterable2	modules/stdlib/lib/puppet/functions/merge.rb	/^  def merge_iterable2(iterable)$/;"	f
+merge_iterable3	modules/stdlib/lib/puppet/functions/merge.rb	/^  def merge_iterable3(iterable)$/;"	f
+move_file_in_place	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def move_file_in_place(from, to)$/;"	f
+new_after_regex	modules/stdlib/lib/puppet/provider/file_line/ruby.rb	/^  def new_after_regex$/;"	f
+new_match_regex	modules/stdlib/lib/puppet/provider/file_line/ruby.rb	/^  def new_match_regex$/;"	f
+ntp	modules/stdlib/lib/puppet/type/anchor.rb	/^  class ntp {$/;"	c
+optional_switch	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def optional_switch(value, option)$/;"	f
+os_version_gte	modules/stdlib/lib/puppet/functions/os_version_gte.rb	/^  def os_version_gte(os, version)$/;"	f
+parse_artifactory_url	modules/archive/lib/puppet/functions/archive/parse_artifactory_url.rb	/^  def parse_artifactory_url(url)$/;"	f
+parse_flags	modules/archive/lib/puppet_x/bodeco/archive.rb	/^      def parse_flags(default, options, command = nil)$/;"	f	class:PuppetX.win_7zip
+previous_validation	modules/stdlib/lib/puppet/functions/validate_legacy.rb	/^  def previous_validation(scope, function_name, value, *prev_args)$/;"	f
+publicize_methods	modules/stdlib/spec/monkey_patches/publicize_methods.rb	/^  def publicize_methods(*methods)$/;"	f	class:Class
+puppet_download	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def puppet_download(filepath)$/;"	f
+puppet_download	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def self.puppet_download(url, filepath)$/;"	F	class:PuppetX.Bodeco.Util
+rand_string	modules/stdlib/lib/puppet/functions/seeded_rand_string.rb	/^  def rand_string(length, seed, charset = nil)$/;"	f
+refresh	modules/stdlib/lib/puppet/type/anchor.rb	/^  def refresh$/;"	f
+remote_checksum	modules/archive/lib/puppet/provider/archive/curl.rb	/^  def remote_checksum$/;"	f
+remote_checksum	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def remote_checksum$/;"	f
+remote_checksum	modules/archive/lib/puppet/provider/archive/wget.rb	/^  def remote_checksum$/;"	f
+remote_mtime	modules/remote_file/lib/puppet/provider/remote_file/ruby.rb	/^  def remote_mtime$/;"	f
+retrieve	modules/remote_file/lib/puppet/type/remote_file.rb	/^    def retrieve$/;"	f
+retrieve	modules/stdlib/lib/puppet/type/file_line.rb	/^    def retrieve$/;"	f
+returnt_root_home	modules/stdlib/lib/facter/root_home.rb	/^  def returnt_root_home$/;"	f	class:Facter
+root_dir	modules/archive/lib/puppet_x/bodeco/archive.rb	/^      def root_dir$/;"	f	class:PuppetX.Bodeco
+s3_download	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def s3_download(path)$/;"	f
+safe_escape	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def safe_escape(uri)$/;"	f	class:PuppetX.Bodeco
+script_parser	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def script_parser(file)$/;"	f	class:Facter
+seeded_rand	modules/stdlib/spec/functions/seeded_rand_spec.rb	/^  def seeded_rand(max, seed, args = {})$/;"	f
+should_to_s	modules/archive/lib/puppet/type/archive.rb	/^    def should_to_s(value)$/;"	f
+should_to_s	modules/remote_file/lib/puppet/type/remote_file.rb	/^    def should_to_s(newvalue = @should)$/;"	f
+site	modules/stdlib/spec/functions/getvar_spec.rb	/^      class site::data { $foo = 'baz' }$/;"	c
+site	modules/stdlib/spec/functions/getvar_spec.rb	/^      class site::info { $lock = 'ŧҺîš íš ắ śţřĭŋĝ' }$/;"	c
+site	modules/stdlib/spec/functions/getvar_spec.rb	/^      class site::new { $item = '万Ü€‰' }$/;"	c	class:site
+specified_checksum	modules/remote_file/lib/puppet/provider/remote_file.rb	/^  def specified_checksum$/;"	f	class:Puppet
+sprintf_hash	modules/stdlib/lib/puppet/functions/sprintf_hash.rb	/^  def sprintf_hash(format, arguments)$/;"	f
+start_with	modules/stdlib/lib/puppet/functions/stdlib/start_with.rb	/^  def start_with(test_string, prefixes)$/;"	f
+temp_dir_path	modules/archive/spec/support/shared_contexts.rb	/^  def temp_dir_path$/;"	f
+tempfile_name	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def tempfile_name$/;"	f
+to_dot_syntax	modules/stdlib/lib/puppet/functions/fact.rb	/^  def to_dot_syntax(array_path)$/;"	f
+to_json	modules/stdlib/lib/puppet/functions/to_json.rb	/^  def to_json(data)$/;"	f
+to_json_pretty	modules/stdlib/lib/puppet/functions/to_json_pretty.rb	/^  def to_json_pretty(data, skip_undef = false, opts = nil)$/;"	f
+to_yaml	modules/stdlib/lib/puppet/functions/to_yaml.rb	/^  def to_yaml(data)$/;"	f
+transfer_download	modules/archive/lib/puppet/provider/archive/ruby.rb	/^  def transfer_download(archive_filepath)$/;"	f
+truncate_middle	modules/stdlib/spec/functions/validate_x509_rsa_key_pair_spec.rb	/^  def truncate_middle(string)$/;"	f
+txt_parser	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def txt_parser(file)$/;"	f	class:Facter
+type_of	modules/stdlib/lib/puppet/functions/type_of.rb	/^  def type_of(value)$/;"	f
+undef_value	modules/stdlib/spec/functions/ensure_resource_spec.rb	/^    def undef_value$/;"	f
+validate_checksum	modules/remote_file/lib/puppet/provider/remote_file/ruby.rb	/^  def validate_checksum$/;"	f
+validate_legacy	modules/stdlib/lib/puppet/functions/validate_legacy.rb	/^  def validate_legacy(scope, target_type, function_name, value, *prev_args)$/;"	f
+validate_legacy_s	modules/stdlib/lib/puppet/functions/validate_legacy.rb	/^  def validate_legacy_s(scope, type_string, *args)$/;"	f
+wget_params	modules/archive/lib/puppet/provider/archive/wget.rb	/^  def wget_params(params)$/;"	f
+win_7zip	modules/archive/lib/puppet_x/bodeco/archive.rb	/^      def win_7zip$/;"	f	class:PuppetX
+with_puppet	modules/stdlib/lib/facter/util/puppet_settings.rb	/^  def self.with_puppet$/;"	F	class:Facter
+with_terminus	modules/archive/lib/puppet_x/bodeco/util.rb	/^      def self.with_terminus(terminus)$/;"	F	class:PuppetX.Bodeco.Util
+yaml_parser	modules/stdlib/lib/facter/facter_dot_d.rb	/^  def yaml_parser(file)$/;"	f	class:Facter
