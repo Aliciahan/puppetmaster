@@ -122,9 +122,4 @@ class basic_settings::vim
   }
 
 
-  file {'colorls setting up':
-    path    => 	'/etc/profile.d/colorls.sh',
-    mode    => 	'0644',
-    content => 	alternative_template("basic_settings","colorls.sh.erb"),
-  }
 }
