@@ -3,13 +3,19 @@ require 'puppet'
 require 'json'
 
 dmp_data = Hash.new
-
 dmp_data['hostenv'] = Puppet[:environment]
 dmp_data['certname'] = Puppet[:certname]
 dmp_data['classfile'] = Puppet[:classfile]
 dmp_data['statedir'] = Puppet[:statedir]
 #dmp_data['envname'] = "pve"
 #dmp_data['nodetype'] = "sentinel"
+
+personal_metadata = Hash.new
+
+personal_metadata = JSON.parse(File.read('/etc/metadata.json'))
+personal_metadata.each do |key, val|
+  Facter.add("#{key}") { setcode { val } }
+end
 
 #case Facter.value(:virtual)
 #when 'gce'
