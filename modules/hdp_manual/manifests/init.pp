@@ -6,8 +6,8 @@
 #   include hdp_manual
 class hdp_manual (
 
-  $hdp_user 	= $hdp_manual::params::hdfs_user,
-  $hdp_group 	= $hdp_manual::params::hdfs_group,
+  $hdp_user   = $hdp_manual::params::hdfs_user,
+  $hdp_group  = $hdp_manual::params::hdfs_group,
 
 )inherits hdp_manual::params{
 
