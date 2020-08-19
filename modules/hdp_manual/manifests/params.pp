@@ -5,9 +5,8 @@
 # @example
 #   include hdp_manual::params
 class hdp_manual::params (
-  $hdfs_user = 'hdfs',
-  $hdfs_group = 'hdfs',
-
+  $hdfs_user 	  = 'hdfs',
+  $hdfs_group 	= 'hdfs',
 ){
 
 }

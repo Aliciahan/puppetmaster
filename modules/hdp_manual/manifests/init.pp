@@ -6,15 +6,14 @@
 #   include hdp_manual
 class hdp_manual (
 
-  $hdp_user = hdp_manual::params::hdp_user,
-  $hdp_group = hdp_manual::params::hdp_group,
+  $hdp_user 	= $hdp_manual::params::hdfs_user,
+  $hdp_group 	= $hdp_manual::params::hdfs_group,
 
 )inherits hdp_manual::params{
 
 
   group { $hdp_group:
     ensure  => 'present',
-    comment => 'hdfs group',
   }
 
 
