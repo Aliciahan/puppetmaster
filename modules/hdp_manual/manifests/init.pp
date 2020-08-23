@@ -34,6 +34,6 @@ class hdp_manual (
     group  =>  $hdp_group,
   }
 
-  include hdp_manual::hdp_jdk
+  include hdp_manual::ambari_repo
 
 }

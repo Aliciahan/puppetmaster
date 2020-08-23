@@ -17,10 +17,10 @@ class disk_tools::format_mount_disk (
     mode   => '0666',
   }
   -> exec { 'format-disk':
-    command => "/sbin/parted ${disk_dev} mklabel ${partition_standard} &&\
-    /sbin/parted -a opt ${disk_dev} mkpart primary ext4 0% 100% &&\
+    command => "/sbin/parted -s ${disk_dev} mklabel ${partition_standard} && sleep 2 &&\
+    /sbin/parted -s -a opt ${disk_dev} mkpart primary ext4 0% 100% && sleep 2 &&\
     /sbin/mkfs.ext4 ${disk_dev}1",
-    unless  => "/sbin/blkid -t TYPE=ext4 ${disk_dev}",
+    unless  => "/sbin/blkid -t TYPE=ext4 ${disk_dev}1",
   }
   -> mount { $mount_folder:
     ensure  => 'mounted',

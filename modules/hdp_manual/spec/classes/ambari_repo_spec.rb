@@ -2,7 +2,7 @@
 
 require 'spec_helper'
 
-describe 'hdp_manual::hdp_jdk' do
+describe 'hdp_manual::ambari_repo' do
   on_supported_os.each do |os, os_facts|
     context "on #{os}" do
       let(:facts) { os_facts }
